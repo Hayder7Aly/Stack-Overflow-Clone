@@ -81,21 +81,7 @@ const NavBar = () => {
                     stackOverflow<strong>_Clone</strong>
                   </Button>
                 )}
-                {/* {!isMobile && (
-                  <Typography variant="caption" color="secondary">
-                    | Made with{' '}
-                    <FavoriteIcon style={{ fontSize: 10, color: '#f4649f' }} />{' '}
-                    by
-                    <Link
-                      href={'https://github.com/amand33p'}
-                      color="inherit"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      <strong>{` amand33p`}</strong>
-                    </Link>
-                  </Typography>
-                )} */}
+    
               </div>
               {!isMobile && <SearchBar />}
             </div>
